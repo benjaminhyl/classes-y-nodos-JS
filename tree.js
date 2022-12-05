@@ -36,10 +36,27 @@ class BinarySearchTree{
     }
     search(value){
         if(this.root === null){
-            return "Tree vacío"
+            console.log("Tree vacio");
         }
-        while(true){
-            
+        else {
+            let currentNode = this.root;
+            while(true){
+                if(value < currentNode.value){
+                    if(!currentNode.left){
+                        return console.log("No se encuentra ese valor");
+                    }
+                    currentNode = currentNode.left;
+                }
+                else if(value > currentNode.value) {
+                    if(!currentNode.right){
+                        return console.log("No se encuentra ese valor");
+                    }
+                    currentNode = currentNode.right;
+                }
+                else if(value === currentNode.value){
+                    return currentNode;
+                }
+            }
         }
     }
 }
