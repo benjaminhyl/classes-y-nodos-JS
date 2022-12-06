@@ -11,3 +11,5 @@ console.log(elements.join('-'));
 
 console.log(elements.join(' ').split(" "));
 // expected output ["Fire", "Air", "Water"]
+let str = "Ejemplo de titulo"
+console.log(str.toLowerCase().split(" ").join("-"));
