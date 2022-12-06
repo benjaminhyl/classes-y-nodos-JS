@@ -24,3 +24,7 @@ const calendars = {
       },
     ],
   };
+
+  console.log(calendars.primaryCalendar[0].startDate);
+  let values = Object.values(calendars)
+  console.log(values.flat(item => {return item}));
