@@ -25,6 +25,13 @@ const calendars = {
     ],
   };
 
-  console.log(calendars.primaryCalendar[0].startDate);
   let values = Object.values(calendars)
-  console.log(values.flat(item => {return item}));
+  console.log(values.flat().map(item=>{return item.startDate}));
+ 
+  let solution =[
+    "Beautiful is better than ugly",
+    "Explicit is better than implicit",
+    "Simple is better than complex",
+    "Complex is better than complicated",
+  ];
+  console.log(solution.flatMap(item => item.split(" ")))
