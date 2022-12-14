@@ -38,5 +38,3 @@ sender.forEach(rem => {
     console.log(domainMaabogados.test(sender))
 
 })
-
-
