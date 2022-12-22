@@ -17,4 +17,4 @@ const team = [
     },
   ];
   //true
-  console.log(team.every((item)=>item.age<20))
+  console.log(team.every((item)=>item.age<18))
