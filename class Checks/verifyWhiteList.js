@@ -14,3 +14,6 @@ let ex4 = str2.match(regV2);
 let ex5 = str3.match(regV2);
 
 console.log(str1.slice(1,))
+
+fruits.splice(2, 0, "Lemon", "Kiwi");
+console.log(fruits)
