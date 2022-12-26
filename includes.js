@@ -22,5 +22,7 @@ const team = [
   function filtrar(words, query){
     console.log( words.filter(item => item.includes(query)))
   }
-  console.log(arr.includes("ana"))
-  filtrar(arr,"a")
+  //console.log(arr.includes("ana"))
+  //filtrar(arr,"a")
+  let str = "INDICADOR UTM MES"
+  console.log(str.includes("INDICADOR UTM"))
