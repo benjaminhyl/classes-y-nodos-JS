@@ -33,7 +33,7 @@ let tipo=""
     })
   console.log(tipo)
 
-  }
+  
   //console.log(arr.includes("ana"))
   //filtrar(arr,"a")
   let str = "INDICADOR UTM MES"
