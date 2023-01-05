@@ -41,6 +41,7 @@ let student = [
 function myFunc(obj, prop) {
   return obj.reduce(function (acc, item) {
     let key = item[prop]
+    console.log(item[prop])
     if (!acc[key]) {
       acc[key] = []
     }
@@ -49,4 +50,4 @@ function myFunc(obj, prop) {
   }, {})
 }
 let groupedStudent = myFunc(student, 'hobby')
-//console.log(groupedStudent)
+console.log(groupedStudent)
