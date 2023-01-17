@@ -17,6 +17,7 @@ let dictSheet = {
 }
 lista.reduce(function (acc, item, i) {
     if (i > 1) {
+        
         dictSheet.comando.push(item[1]);
         dictSheet.subComando.push(item[2]);
         dictSheet.subComando1.push(item[3]);
