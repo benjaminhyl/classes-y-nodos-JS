@@ -16,9 +16,15 @@ const team2 = {
       age: 18,
     },
 };
-
+let group = [];
 for(item in team2){
+  group=[...group, team2[item]];
+  console.log(group);
+  console.log(team2[item].age);
+}
+
+/* for(item in team2){
     
     console.log(team2[item].age)
 }
-
+ */
