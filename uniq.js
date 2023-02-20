@@ -22,6 +22,11 @@ b:"3"
     console.log(obj[key])
  }
 let ss = "  Ejemplo     "
+let array_strings = [" hola  ","mundo  ", " nuevo"]
 //let b =[... new Set(obj)];
 console.log(ss.trim());
+console.log(ss);
+let trim_array = array_strings.map(item => item.trim());
+//console.log(trim_array)
+//console.log( array_strings.forEach(item => {return item.trim()}))
 
