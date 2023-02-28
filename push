@@ -15,6 +15,6 @@ let obj = {
 hold.push(obj);
 hold.push(obj);
 let final_obj = [];
-hold.forEach(item => final_obj.push([item.nemo, item.fecha_v, item.cant_v, item.mont_v, item.fecha_c, item.cant_c,
-    item.pu, item.tot_adq, item.tot_adq_reaj, item.mont_corr]))
+hold.forEach(fila => final_obj.push([fila.nemo, fila.fecha_v, fila.cant_v, fila.mont_v, fila.fecha_c, fila.cant_c,
+    fila.pu, fila.tot_adq, fila.tot_adq_reaj, fila.mont_corr]))
 console.log(final_obj[0])
