@@ -1,0 +1,20 @@
+let hold = []
+let obj = {
+    v_c: "venta",
+    nemo: "nemo",
+    fecha_v: "f_venta",
+    cant_v: "acciones venta",
+    mont_v: "monto venta",
+    fecha_c: "fecha compra",
+    cant_c: "acciones compra",
+    pu: "pu",
+    tot_adq: "totADQ",
+    tot_adq_reaj: "totADQreaj",
+    mont_corr: "monto corr"
+};
+hold.push(obj);
+hold.push(obj);
+let final_obj = [];
+hold.forEach(item => final_obj.push([item.nemo, item.fecha_v, item.cant_v, item.mont_v, item.fecha_c, item.cant_c,
+    item.pu, item.tot_adq, item.tot_adq_reaj, item.mont_corr]))
+console.log(final_obj[0])
